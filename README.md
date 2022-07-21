@@ -11,7 +11,7 @@ Kirish parametrlari:
     ism:          Matn
     familiya      Matn
     millati:      Matn
-    gender:       Raqam (tablash kerak);
+    gender:       Raqam (tanlash kerak);
     fakulteti:    Matn
     qabul yili:   Raqam
 
