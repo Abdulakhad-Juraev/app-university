@@ -14,7 +14,6 @@ public class Service {
 
         input = new Scanner(System.in);
         int yonalish = input.nextInt();
-
         if (yonalish == 1) System.out.println("Bakalavr uchun talaba qo'shish!");
         else if (yonalish == 2) System.out.println("Magistratura uchun o'quvchi qo'shish!");
         else {
@@ -25,7 +24,7 @@ public class Service {
         String firstName = method("Talabaning ismini kiriting: ", input, "firstName");
         String lastName = method("Talabaning familiyasini kiriting: ", input, "lastName");
         String nation = method("Talabaning millatini kiriting: ", input, "nation");
-        int gender = Integer.parseInt(method("Talabaning genderini kiriting:\n1.MALE \n2.FEMALE ", input, "gender"));
+        int gender = Integer.parseInt(method("Talabaning genderini tanlang: (raqamni tanlang)\n1. MALE \n2. FEMALE ", input, "gender"));
         String faculty = method("Talabaning fakultetini kiriting: ", input, "faculty");
         int admission = Integer.parseInt(method("Talabaning qabul yilini kiriting: ", input, "admission"));
 
